@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    
+}
+.hero-col{
+    margin-left: 50px ;
+    width:50%;
+}
+.container{
+    max-width: 1200px;
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    background-color:#EAECF9;
+    ;
+}
+.hero-text{
+    margin: 27px 0 64px;
+}
+.hero-name{
+    font-family: "Abril Fatface", serif ;
+}
+.hero-btn-con{
+    position: relative;
+
+    padding:20px 55px;
+    border: 4px solid #000;
+
+}
+
+.hero-btn{
+    position: absolute;
+    right: -5px;
+    top:-5px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+        padding:20px 55px;
+}
